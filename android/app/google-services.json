@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "474965764021",
+    "firebase_url": "https://fitness-note-dev.firebaseio.com",
+    "project_id": "fitness-note-dev",
+    "storage_bucket": "fitness-note-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474965764021:android:e9c29ef36712cf31cf5bfc",
+        "android_client_info": {
+          "package_name": "com.petfitness.fitnessnote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474965764021-e589k9qfn23en5p0facne8dufu77obrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByOg-TiZiodknEgXfGBcOuKflDaxv_mKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474965764021-e589k9qfn23en5p0facne8dufu77obrf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
