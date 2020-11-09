@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-Widget LoadingIndicator() {
+Widget loadingIndicator() {
   Widget _getLoadingIndicator() {
     return Padding(
         child: Container(
@@ -35,5 +35,7 @@ Widget LoadingIndicator() {
       child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.min,
-          children: [_getLoadingIndicator(), _getHeading(), _getText('Text')]));
+          children: [_getLoadingIndicator(), _getHeading(), _getText('Text')]
+      )
+  );
 }

@@ -6,7 +6,6 @@ import 'package:fit/services/auth.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
-import 'package:fit/components/LoadingIndicator.dart';
 
 
 class AuthorizationPage extends StatefulWidget {
@@ -154,7 +153,7 @@ class _AuthorizationPageState extends State<AuthorizationPage> {
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.all(Radius.circular(8.0))),
                 backgroundColor: Colors.black87,
-                content: LoadingIndicator(),
+                content: loadingIndicator(),
               ));
         },
       );
